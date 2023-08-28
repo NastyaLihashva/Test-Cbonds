@@ -1,0 +1,294 @@
+.page {
+  width: 2000px;
+  margin: 0 auto;
+  background-color: white;
+}
+.container {
+  max-width: 1256px;
+  margin: 0 auto;
+}
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+h1 {
+  margin: 0 0 3px 0;
+  font-family: 'Montserrat';
+  font-size: 75px;
+  font-weight: bold;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-size: 36px;
+}
+/*--------header---------*/
+header {
+  background-color: white;
+  padding: 64px 0 63px 0;
+  color: #000000;
+}
+.header__category {
+  display: flex;
+  margin: 0 0 40px 0;
+  line-height: 24px;
+}
+.header__category-number {
+  margin: 0 10px 0 0;
+  font-family: 'Montserrat';
+  font-size: 52px;
+  font-weight: bold;
+}
+.header__category-text {
+  margin: 8px 0 0 0;
+  font-family: 'Montserrat';
+  font-size: 36px;
+  font-weight: bold;
+}
+.header__text {
+  width: 800px;
+  margin: 0 0 46px 0;
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 24px;
+}
+.header__block-ul {
+  display: flex;
+  max-width: 100%;
+  padding: 0;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.header__block-li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 14px 20px 0;
+  padding: 6px 12px;
+  border: 1px solid #E8E8E8;
+  border-radius: 27px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+.header__block-li:first-child {
+  background-color: #EF5F31;
+  border: 1px solid #EF5F31;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.header__block-li:nth-child(10) {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 16px;
+}
+.li-flex-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__block-li__image {
+  margin: 0 8px 0 0;
+}
+/*------vvp------*/
+.vvp {
+  background-color: #F9F9F9;
+  padding: 64px 0 116px 0;
+}
+.vvp__header {
+  margin: 0 0 74px 0;
+}
+.vvp__block {
+  display: flex;
+  align-items: center;
+  margin: 0 0 43px 0;
+}
+.vvp__block-procent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 20px;
+  padding: 12px 24px;
+  background-color: #E0E8F3;
+  border-radius: 20px;
+}
+.block-procent__proc {
+  margin: 0 8px 0 0;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 36px;
+}
+.block-procent__text {
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+}
+.vvp__graphics-ul {
+  display: flex;
+  padding: 0;
+}
+.vvp__graphics-li {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+}
+.vvp__graphics-li:not(:last-child) {
+  margin: 0 215px 0 0;
+}
+/*------vds-----*/
+.vds {
+  margin: 72px 0 0 0;
+}
+.vds__header {
+  margin: 0 0 0 -20px;
+}
+.vds__block {
+  margin: 44px 0 96px 0;
+}
+.vds__block-ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0 -20px;
+}
+.vds__block-li {
+  width: 238px;
+  padding: 0 16px;
+  background-color: #FBFBFB;
+  border-radius: 20px;
+}
+.vds__block-li:not(:last-child) {
+  margin: 0 16px 0 0;
+}
+.vds__block-li__procent {
+  margin: 16px 0 8px 0;
+  font-family: 'Montserrat';
+  font-size: 40px;
+  font-weight: bold;
+  color: #5CB585;
+}
+.vds__block-li__text {
+  margin: 0 16px 20px 0;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+/*-----neftegaz------*/
+.neftegaz {
+  background-color: #323232;
+}
+.neftegaz__header {
+  padding: 68px 0 20px 0;
+  color: #FFFFFF;
+}
+.neftegaz__procent-first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 52px 0 36px 0;
+  margin: 0 0 0 -35px;
+}
+.neftegaz__procent-first__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  background-color: #EE5F2F;
+  border-radius: 20px;
+  color: #FFFFFF;
+}
+.neftegaz__procent-first__block:first-child {
+  margin: 0 90px 0 0;
+}
+.procent-first__block__proc {
+  margin: 28px 0 8px 67px;
+  font-family: 'Montserrat';
+  font-size: 52px;
+  font-weight: bold;
+}
+.procent-first__block__text {
+  margin: 0 67px 28px 67px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+.neftegaz_graphic1__image {
+  margin: 26px 0 62px -20px;
+}
+.neftegaz__procent-second__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  background-color: #101010;
+  border-radius: 20px;
+  color: #FFFFFF;
+}
+.neftegaz__procent-second__block:first-child {
+  margin: 0 90px 0 0;
+}
+.procent-second__block__proc {
+  margin: 28px 0 8px 36px;
+  font-family: 'Montserrat';
+  font-size: 52px;
+  font-weight: bold;
+}
+.procent-second__block__text {
+  margin: 0 36px 28px 36px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+.neftegaz_graphic2__image {
+  margin: 26px 0 134px -20px;
+}
+/*-----------footer-------*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #323232;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 35px 44px 0;
+}
+.footer__header {
+  margin: 0 0 44px 0;
+  font-family: 'Roboto';
+  font-size: 58px;
+  font-weight: bold;
+}
+.footer__ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 58px 0;
+}
+.footer__li:not(:last-child) {
+  margin: 0 106.33px 0 0;
+}
+.footer__country {
+  margin: 0 0 4px 0;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 22px;
+}
+.footer__phone {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 22px;
+}
+.footer__info {
+  max-width: 1024px;
+  text-align: start;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 400;
+}
